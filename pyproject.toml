@@ -4,8 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "dev-server"
-# dynamic = ["version"]
-version = "0.12.3"
+dynamic = ["version"]
 description = "A suite of lightweight development servers for capturing, replaying, and inspecting HTTP requests."
 readme = "README.md"
 requires-python = ">=3.9"
